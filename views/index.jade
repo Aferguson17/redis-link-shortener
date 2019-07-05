@@ -1,0 +1,12 @@
+doctype html
+html(lang="en")
+    head
+        title="Shortener"
+    body
+        div.container
+            div.row
+                h1 Shortener
+            div.row
+                form(action="/", method="POST")
+                    input(type="url", name="url")
+                    input(type="submit", value="Submit")

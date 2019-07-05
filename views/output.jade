@@ -1,0 +1,11 @@
+doctype html
+html(lang="en")
+    head
+        title=Shortener
+    body
+        div.container
+            div.row
+                h1 Shortener
+                p
+                    | Here is your shortener URL 
+                    a(href=base_url+'/'+id) #{base_url}/#{id}
